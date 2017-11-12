@@ -1,0 +1,16 @@
+0:	$MFT
+1:	$MFTMirr
+2:	$LogFile
+3:	$Volume
+4:	$AttrDef
+5:	.
+6:	$Bitmap
+7:	$Boot
+8:	$BadClus
+9:	$Secure
+10:	$UpCase
+11:	$Extend
+12:	
+13:	
+14:	
+15:	

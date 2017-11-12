@@ -1,0 +1,50 @@
+﻿Построение начато 18.09.2017 23:15:42.
+Проект "C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\libntfs\libntfs.vcxproj" в узле 2 (целевые объекты rebuild).
+_PrepareForClean:
+  Файл "Debug\libntfs.lastbuildstate" удаляется.
+InitializeBuildStatus:
+  Создание "Debug\libntfs.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBNTFS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\libntfs.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBNTFS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\libntfs.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\Мои документы\Visual Studio 2010\Projects\ntfs\libntfs\flist.cpp" "..\..\..\..\..\Мои документы\Visual Studio 2010\Projects\ntfs\libntfs\strft.cpp" "..\..\..\..\..\Мои документы\Visual Studio 2010\Projects\ntfs\libntfs\volume_list.cpp" "..\..\..\..\..\Мои документы\Visual Studio 2010\Projects\ntfs\libntfs\_ntfs.cpp"
+  _ntfs.cpp
+  volume_list.cpp
+  strft.cpp
+  flist.cpp
+  Создание кода...
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBNTFS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+  dllmain.cpp
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\libntfs.dll.embed.manifest.res" Debug\libntfs_manifest.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libntfs.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.lib" /MACHINE:X86 /DLL Debug\libntfs.dll.embed.manifest.res
+  Debug\flist.obj
+  Debug\strft.obj
+  Debug\volume_list.obj
+  Debug\_ntfs.obj
+  Debug\dllmain.obj
+  Debug\stdafx.obj
+     Создается библиотека C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.lib и объект C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.exp
+Manifest:
+  Файл "Debug\libntfs.dll.embed.manifest" удаляется.
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\libntfs.dll.embed.manifest" /manifest Debug\libntfs.dll.intermediate.manifest
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\libntfs.dll.embed.manifest.res" Debug\libntfs_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libntfs.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.lib" /MACHINE:X86 /DLL Debug\libntfs.dll.embed.manifest.res
+  Debug\flist.obj
+  Debug\strft.obj
+  Debug\volume_list.obj
+  Debug\_ntfs.obj
+  Debug\dllmain.obj
+  Debug\stdafx.obj
+     Создается библиотека C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.lib и объект C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.exp
+  libntfs.vcxproj -> C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\libntfs.dll
+FinalizeBuildStatus:
+  Файл "Debug\libntfs.unsuccessfulbuild" удаляется.
+  Обращение к "Debug\libntfs.lastbuildstate".
+Построение проекта "C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\libntfs\libntfs.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:05.43

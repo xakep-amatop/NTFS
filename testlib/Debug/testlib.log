@@ -1,0 +1,31 @@
+﻿Построение начато 18.09.2017 23:15:48.
+Проект "C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\testlib\testlib.vcxproj" в узле 2 (целевые объекты rebuild).
+_PrepareForClean:
+  Файл "Debug\testlib.lastbuildstate" удаляется.
+InitializeBuildStatus:
+  Создание "Debug\testlib.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Documents and Settings\YP\Мои документы\Visual Studio 2010\Projects\ntfs\libntfs" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt testlib.cpp
+  testlib.cpp
+c:\documents and settings\yp\мои документы\visual studio 2010\projects\ntfs\testlib\testlib.cpp(28): warning C4715: read_mft: значение возвращается не при всех путях выполнения
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\testlib.exe.embed.manifest.res" Debug\testlib_manifest.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\testlib.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Documents and Settings\YP\Мои документы\Visual Studio 2010\Projects\ntfs\Debug" libntfs.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\testlib.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\testlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\testlib.lib" /MACHINE:X86 Debug\testlib.exe.embed.manifest.res
+  Debug\testlib.obj
+Manifest:
+  Файл "Debug\testlib.exe.embed.manifest" удаляется.
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\testlib.exe.embed.manifest" /manifest Debug\testlib.exe.intermediate.manifest
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\testlib.exe.embed.manifest.res" Debug\testlib_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\testlib.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Documents and Settings\YP\Мои документы\Visual Studio 2010\Projects\ntfs\Debug" libntfs.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\testlib.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\testlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\testlib.lib" /MACHINE:X86 Debug\testlib.exe.embed.manifest.res
+  Debug\testlib.obj
+  testlib.vcxproj -> C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\Debug\testlib.exe
+FinalizeBuildStatus:
+  Файл "Debug\testlib.unsuccessfulbuild" удаляется.
+  Обращение к "Debug\testlib.lastbuildstate".
+Построение проекта "C:\Documents and Settings\YP\мои документы\visual studio 2010\Projects\ntfs\testlib\testlib.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.86
