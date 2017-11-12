@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libntfs", "libntfs\libntfs.vcxproj", "{E471C14D-DBEE-47F8-BE16-16A2AFCBEB1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testlib", "testlib\testlib.vcxproj", "{BF171B26-3FEE-44F5-9F92-48ACA207B035}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E471C14D-DBEE-47F8-BE16-16A2AFCBEB1B} = {E471C14D-DBEE-47F8-BE16-16A2AFCBEB1B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E471C14D-DBEE-47F8-BE16-16A2AFCBEB1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E471C14D-DBEE-47F8-BE16-16A2AFCBEB1B}.Debug|Win32.Build.0 = Debug|Win32
+		{E471C14D-DBEE-47F8-BE16-16A2AFCBEB1B}.Release|Win32.ActiveCfg = Release|Win32
+		{E471C14D-DBEE-47F8-BE16-16A2AFCBEB1B}.Release|Win32.Build.0 = Release|Win32
+		{BF171B26-3FEE-44F5-9F92-48ACA207B035}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF171B26-3FEE-44F5-9F92-48ACA207B035}.Debug|Win32.Build.0 = Debug|Win32
+		{BF171B26-3FEE-44F5-9F92-48ACA207B035}.Release|Win32.ActiveCfg = Release|Win32
+		{BF171B26-3FEE-44F5-9F92-48ACA207B035}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
